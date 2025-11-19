@@ -1,0 +1,83 @@
+# 📌 기본 OS / 에디터 / IDE 공통 Ignore
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VSCode
+.vscode/
+.history/
+
+# IntelliJ / IDEA / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+
+
+# 📌 Node.js / Frontend (client/) 환경 고려
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv
+.env
+.env.*
+
+
+# 📌 Spring Boot / Java (server/springboot/) 환경 고려
+# Maven / Gradle build
+target/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+
+# Logs
+*.log
+
+# Spring Boot config
+application.yml
+application.properties
+application-*.yml
+application-*.properties
+
+
+
+# 📌 Common Build Artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Lock Files
+package-lock.json
+pnpm-lock.yaml
+
+
+# 📌 Images / Docs (업로드 제외하고 싶은 경우)
+# screenshots 자동 생성 파일
+docs/screenshots/raw/*
+
+
+# 📌 Local / Temp files
+tmp/
+temp/
+.cache/
